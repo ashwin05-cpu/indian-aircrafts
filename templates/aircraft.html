@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ aircraft.name }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="detail-container">
+
+    <img class="detail-image"
+         src="{{ url_for('static', filename='images/' + aircraft.image) }}">
+
+    <div class="details">
+
+        <h1>{{ aircraft.name }}</h1>
+
+        <p><strong>Type:</strong> {{ aircraft.type }}</p>
+
+        <p><strong>Force:</strong> {{ aircraft.force }}</p>
+
+        <p><strong>Speed:</strong> {{ aircraft.speed }}</p>
+
+        <p><strong>Range:</strong> {{ aircraft.range }}</p>
+
+        <p><strong>Crew:</strong> {{ aircraft.crew }}</p>
+
+        <p><strong>Manufacturer:</strong> {{ aircraft.manufacturer }}</p>
+
+        <p class="description">
+            {{ aircraft.description }}
+        </p>
+
+        <a href="/">⬅ Back to Home</a>
+
+    </div>
+
+</div>
+
+</body>
+</html>

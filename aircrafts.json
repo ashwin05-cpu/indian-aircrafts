@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "HAL Tejas",
+    "type": "Light Combat Aircraft",
+    "force": "Indian Air Force",
+    "speed": "2205 km/h",
+    "range": "1850 km",
+    "crew": "1",
+    "manufacturer": "HAL",
+    "description": "An indigenous multirole fighter aircraft developed in India.",
+    "image": "tejas.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "Rafale",
+    "type": "Multirole Fighter",
+    "force": "Indian Air Force",
+    "speed": "1912 km/h",
+    "range": "3700 km",
+    "crew": "1-2",
+    "manufacturer": "Dassault Aviation",
+    "description": "Advanced 4.5 generation fighter used by India.",
+    "image": "rafale.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Su-30MKI",
+    "type": "Air Superiority Fighter",
+    "force": "Indian Air Force",
+    "speed": "2120 km/h",
+    "range": "3000 km",
+    "crew": "2",
+    "manufacturer": "Sukhoi/HAL",
+    "description": "Main backbone fighter aircraft of India.",
+    "image": "su30.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Apache AH-64E",
+    "type": "Attack Helicopter",
+    "force": "Indian Air Force",
+    "speed": "365 km/h",
+    "range": "476 km",
+    "crew": "2",
+    "manufacturer": "Boeing",
+    "description": "Advanced attack helicopter for combat missions.",
+    "image": "apache.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "HAL Dhruv",
+    "type": "Utility Helicopter",
+    "force": "Indian Army",
+    "speed": "295 km/h",
+    "range": "630 km",
+    "crew": "2",
+    "manufacturer": "HAL",
+    "description": "Indian-made multi-role utility helicopter.",
+    "image": "dhruv.jpg"
+  }
+]

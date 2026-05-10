@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Military Aircraft</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>INDIAN MILITARY AIRCRAFT DATABASE</h1>
+    <p>Indian Air Force • Navy • Army Aviation</p>
+</header>
+
+<div class="container">
+
+    {% for aircraft in aircrafts %}
+
+    <div class="card">
+
+        <img src="{{ url_for('static', filename='images/' + aircraft.image) }}">
+
+        <div class="card-content">
+
+            <h2>{{ aircraft.name }}</h2>
+
+            <p>{{ aircraft.type }}</p>
+
+            <span>{{ aircraft.force }}</span>
+
+            <a href="/aircraft/{{ aircraft.id }}">
+                View Details
+            </a>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+</body>
+</html>
